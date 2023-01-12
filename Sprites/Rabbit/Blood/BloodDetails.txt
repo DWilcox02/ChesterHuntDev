@@ -1,0 +1,36 @@
+Down:
+	Left:
+		-0.08, -0.059, 0
+		Gravity = 0
+	Right:
+		0.08, -0.059, 0
+		Gravity = 0
+
+Up:
+	Left:
+		-0.08, -0.059, 0
+		Gravity = 0
+	Right:
+		0.08, -0.059, 0
+		Gravity = 0
+
+Left:
+	Left:
+		0.02, -0.1, 0
+		Rotation: -28, 90, -90
+		Gravity = 0.5
+	Right:
+		0.1, -0.1, 0
+		Rotation: -25, 90, -90
+		Gravity = 0.5
+
+Right: 	NOT DONE SEE RABBIT RIGHT
+	Left:
+		0.02, -0.1, 0
+		Rotation: -28, 90, -90
+		Gravity = 0.5
+	Right:
+		0.1, -0.1, 0
+		Rotation: -25, 90, -90
+		Gravity = 0.5
+
