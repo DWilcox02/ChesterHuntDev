@@ -8,9 +8,10 @@ public class PlayerMovement : MonoBehaviour
     public float speed;
     private Vector2 movement;
     private Vector2 lastPosDirection;
-    public float dashSpeed;
+    private float dashSpeed;
     private float dashTime;
     private float startDashTime = 0.3f;
+    private float dashMultiplier = 2f;
     private Vector2 dashDirection;
 
     public GameObject pounce;
@@ -113,7 +114,7 @@ public class PlayerMovement : MonoBehaviour
     public void ControlToPounce(Vector2 newDirection, float radius)
     {
         dashDirection = newDirection;
-        dashSpeed = radius / startDashTime * 1.5f;
+        dashSpeed = radius / startDashTime * dashMultiplier;
     }
 
     public void MouseControls()
